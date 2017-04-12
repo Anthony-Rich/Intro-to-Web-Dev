@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: darkgray;
 }
 
 
@@ -9,6 +9,25 @@ body {
   height: 100px;
   width: 100px;
   text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color:lightblue;
+}
+
+a:hover {
+  background-color: blue;
+  color:lightblue;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: white;
 }
 
 body {
@@ -21,14 +40,14 @@ header {
 
 
 h1 {
-  font-family: 'Sigh No More', fantasy;
+  font-family: 'Sigh No More', Georgia, 'Times New Roman', Times, serif;
   font-size: 2.8rem;
   color: red; 
   text-align: center;
 }
 
 h2 {
-    font-family: 'Band and Producers', fantasy;
+    font-family: 'Band and Producers', Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 1.5rem;
     color: black;
     text-align: center;
@@ -56,4 +75,9 @@ th, td {
 th {
   background-color: grey;
   color: black;
+}
+
+tbody {
+  background-color: lightcoral;
+  font-style: italic; 
 }
