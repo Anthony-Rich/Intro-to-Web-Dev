@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Tony's Takeaway - Contact Us</title>
+        <link rel="stylesheet" href="resterauntstyle.css" type="text/css">
+        <style>
+            #contactform {
+                 margin: 10px auto 100px auto;
+                 max-width: 700px;
+                 padding: 30px;
+                 position: center;
+                 left: 20px;
+            }
+             td {
+                 padding: 10px 30px 0px 0px;
+                 font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Tony's Takeaway</h1>
+        <nav>
+            <a href="Restaurant Home V4.html">Home</a>
+            <a href="Menu V4.html">Menu</a>
+            <a href="ContactUs V4.html">Contact Us</a>
+        </nav><br/>
+        </header>
+    </body>
+
+    <body> 
+        <div id="contactform">
+      <form action="Contact_Center.html" method="POST">
+        <table style="text-align: right">
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email"></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="text" name="phone" id="phone"></td>
+          </tr>
+          <tr>
+            <td><label for="reason">Reason for Inquiry:</label></td>
+            <td><select name="reason" id="reason">
+              <option value="catering">Catering</option>
+              <option value="party">Private Party</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td class="padding" valign="top"><label for="addInfo">Additional Information:</label></td>
+            <td><textarea name="addInfo" id="addInfo" rows="6" style="overflow: auto; resize: none"></textarea></td>
+          </tr>
+
+          <tr>
+            <td>Have you been to the restaurant:</td>
+            <td><label><input type="radio" name="pastCustomer" value="no" checked>No</label>
+                <label><input type="radio" name="pastCustomer" value="yes">Yes</label></td>
+          </tr>
+          <tr>
+            <td>Best days to contact you:</td>
+            <td>
+              <label><input type="checkbox" name="contactDay" value="monday">M</label>
+              <label><input type="checkbox" name="contactDay" value="tuesday">T</label>
+              <label><input type="checkbox" name="contactDay" value="wednesday">W</label>
+              <label><input type="checkbox" name="contactDay" value="thursday">Th</label>
+              <label><input type="checkbox" name="contactDay" value="friday">F</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Send Request"></td>
+          </tr>
+        </table>
+      </form>
+        </div>
+    </body>
+
+    <footer> 
+        <center><p>123 Main Street, Akron, OH, 44319</p></center>
+        <center><p>330-123-4567</p></center>
+    </footer>
+
+</html>

@@ -22,8 +22,29 @@ nav {
   text-align: left;
 }
 
-nav a {
+a {
+  text-decoration: underline;
+  font-weight: none;
   padding: 10px;
+}
+
+a:link {
+  color: Green;
+}
+
+a:visited {
+  color: Red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00c;
+  font-weight: bold;
+}
+
+a:active {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
