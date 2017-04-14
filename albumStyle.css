@@ -1,28 +1,32 @@
-body {
-    background-color: darkgray;
-}
-
-
-#album {
-  background: url(Cover.jpg) no-repeat;
-  margin: 0 auto;
-  height: 100px;
-  width: 100px;
+html {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-size: 18px;
+  padding: 2%;
   text-align: center;
 }
 
+body {
+  background-color: lightcyan;
+}
+
+header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
 a {
-  color: red;
+  color: crimson;
   text-decoration: none;
 }
 
 a:visited {
-  color:lightblue;
+  color: crimson;
 }
 
 a:hover {
-  background-color: blue;
-  color:lightblue;
+  background-color: slategray;
+  color: lightcoral;
   text-decoration: underline;
 }
 
@@ -30,54 +34,39 @@ a:active {
   background-color: white;
 }
 
-body {
-    text-align: center;
+.container-fluid h2:first-of-type {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
 }
-
-header {
-  line-height: 1;
-}
-
-
-h1 {
-  font-family: 'Sigh No More', Georgia, 'Times New Roman', Times, serif;
-  font-size: 2.8rem;
-  color: red; 
-  text-align: center;
-}
-
-h2 {
-    font-family: 'Band and Producers', Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 1.5rem;
-    color: black;
-    text-align: center;
-}
-
 
 ul {
   font-style: italic;
+  padding-bottom: 20px;
   text-align: left;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-table, th, td {
+table.table {
   border: 1px solid black;
+  margin: 0 auto 10px;
+  width: 95%;
+  text-align: center;
 }
 
-th, td {
-  padding: 3px;
+.table-responsive {
+  border: none;
 }
 
 th {
-  background-color: grey;
-  color: black;
+  text-align: center;
+}
+
+thead {
+  background-color:slategray;
+  color: white;
+  text-align: center;
 }
 
 tbody {
-  background-color: lightcoral;
-  font-style: italic; 
-}
+  background-color:lightgray;
+  font-style: italic;
+  }
