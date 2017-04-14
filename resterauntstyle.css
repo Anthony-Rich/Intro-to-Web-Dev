@@ -10,14 +10,14 @@ header h1 {
   text-align: center;
   padding: 0px;
   font-size: 40px;
-  font-family: 'Lucida Handwriting';
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   position: relative;
 }
 
-nav {
+/*nav {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  font-size: 0.85rem;
+  font-size: 2rem;
   padding: 20px;
   text-align: left;
 }
@@ -45,11 +45,11 @@ a:hover {
 a:active {
   font-weight: bold;
   text-decoration: none;
-}
+}*/
 
 footer {
   background: white;
-  border-top: 2px solid black;
+ /* border-top: 2px solid black;*/
   font-size: 2;
   font-weight: bold;
   text-align: center;
