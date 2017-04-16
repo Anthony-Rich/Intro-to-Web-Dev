@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tony's Takeaway - Contact Us</title>
+        <<link rel="stylesheet" href="resterauntstyle.css" type="text/css">
+        <link rel="stylesheet"
+	          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <style>
+            #contactform {
+                 margin: 10px auto 100px auto;
+                 max-width: 700px;
+                 padding: 30px;
+                 position: center;
+                 left: 20px;
+            }
+             td {
+                 padding: 10px 30px 0px 0px;
+                 font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<h1>Tony's Takeaway</h1>
+		</div>
+	</div>
+	
+     <div class="container">
+            <div class="jumbotron">
+            <div id="news"><span>New Location Opening <br class="visible-xxs"> May 8th, 2017!</span></div>
+    </div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-sm-12 navigation">
+			<ul class="nav nav-tabs">
+                <li><a href="Restaurant Home V6.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="Menu V6.html">Menu</a></li>
+                <li class="active"><a href="ContactUs V6.html">Contact Us</a></li>
+            </ul>
+		</div>
+	</div>
+     </header>
+   </body>
+
+    <body> 
+        <div class="container" "responsive">
+        <div id="contactform">
+      <form action="Contact_Center.html" method="POST">
+        <table style="text-align: right">
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email"></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="text" name="phone" id="phone"></td>
+          </tr>
+          <tr>
+            <td><label for="reason">Reason for Inquiry:</label></td>
+            <td><select name="reason" id="reason">
+              <option value="catering">Catering</option>
+              <option value="party">Private Party</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td class="padding" valign="top"><label for="addInfo">Additional Information:</label></td>
+            <td><textarea name="addInfo" id="addInfo" rows="6" style="overflow: auto; resize: none"></textarea></td>
+          </tr>
+
+          <tr>
+            <td>Have you been to the restaurant:</td>
+            <td><label><input type="radio" name="pastCustomer" value="no" checked>No</label>
+                <label><input type="radio" name="pastCustomer" value="yes">Yes</label></td>
+          </tr>
+          <tr>
+            <td>Best days to contact you:</td>
+            <td>
+              <label><input type="checkbox" name="contactDay" value="monday">M</label>
+              <label><input type="checkbox" name="contactDay" value="tuesday">T</label>
+              <label><input type="checkbox" name="contactDay" value="wednesday">W</label>
+              <label><input type="checkbox" name="contactDay" value="thursday">Th</label>
+              <label><input type="checkbox" name="contactDay" value="friday">F</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Send Request"></td>
+          </tr>
+        </table>
+      </form>
+        </div>
+        </div>
+    
+ <div class="container">
+    <footer> 
+        <center><p>123 Main Street, Akron, OH, 44319</p></center>
+        <center><p>330-123-4567</p></center>
+    </footer>
+    </div>
+    </body>
+
+</html>
